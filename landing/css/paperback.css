@@ -12,42 +12,30 @@
   margin-left: 0px;}
 .colo{
   margin-right: 0px; }
-
 .one {
-  width: 80px; }
-
+  width: 80px;}
 .two {
-  width: 180px; }
-
-.three {
-  width: 280px; }
-
-.four {
-  width: 380px; }
-
-.five {
-  width: 480px; }
-
+  width: 180px;}
+.thr {
+  width: 280px;}
+.fou {
+  width: 380px;}
+.fiv {
+  width: 480px;}
 .six {
-  width: 580px; }
-
-.seven {
-  width: 680px; }
-
-.eight {
-  width: 780px; }
-
-.nine {
-  width: 880px; }
-
+  width: 580px;}
+.sev {
+  width: 680px;}
+.eig {
+  width: 780px;}
+.nin {
+  width: 880px;}
 .ten {
-  width: 980px; }
-
-.eleven {
-  width: 1080px; }
-
-.twelve {
-  width: 1180px; }
+  width: 980px;}
+.ele {
+  width: 1080px;}
+.twe {
+  width: 1180px;}
 
 
 @media screen and (min-width: 960px) and (max-width: 1024px) {}
