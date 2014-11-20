@@ -1,19 +1,16 @@
-.container {
+.con{
   width: 1200px;
   margin: 10px auto;
   position: relative;
-  clear: both; }
-
-.column, .columns {
+  clear: both;}
+.col{
   float: left;
   display: inline;
   margin-left: 10px;
-  margin-right: 10px; }
-
-.column.alpha, .columns.alpha {
-  margin-left: 0px; }
-
-.column.omega, .column.omega {
+  margin-right: 10px;}
+.cola{
+  margin-left: 0px;}
+.colo{
   margin-right: 0px; }
 
 .one {
