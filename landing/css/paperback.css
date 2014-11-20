@@ -1,3 +1,58 @@
+.container {
+  width: 1200px;
+  margin: 10px auto;
+  position: relative;
+  clear: both; }
+
+.column, .columns {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.column.alpha, .columns.alpha {
+  margin-left: 0px; }
+
+.column.omega, .column.omega {
+  margin-right: 0px; }
+
+.one {
+  width: 80px; }
+
+.two {
+  width: 180px; }
+
+.three {
+  width: 280px; }
+
+.four {
+  width: 380px; }
+
+.five {
+  width: 480px; }
+
+.six {
+  width: 580px; }
+
+.seven {
+  width: 680px; }
+
+.eight {
+  width: 780px; }
+
+.nine {
+  width: 880px; }
+
+.ten {
+  width: 980px; }
+
+.eleven {
+  width: 1080px; }
+
+.twelve {
+  width: 1180px; }
+
+
 @media screen and (min-width: 960px) and (max-width: 1024px) {}
 
 @media screen and (min-width: 620px) and (max-width: 960px) {}
