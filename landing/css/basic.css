@@ -186,7 +186,7 @@ hr {
 	textarea,
 	select {
 		border: none;
-		padding: 6px 4px;
+		padding: 12px;
 		outline: none;
 		-moz-border-radius: none;
 		-webkit-border-radius: none;
@@ -194,7 +194,7 @@ hr {
 		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
-		width: 210px;
+		width: 100%;
 		max-width: 100%;
 		display: block;
 		margin-bottom: 20px;
