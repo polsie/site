@@ -1,0 +1,53 @@
+$container: 1200px;
+$columns: 6;
+$gutter: 20px;
+$margin: $gutter/2;
+$row: $container / $columns - $gutter;
+
+
+.con{
+	width: $container;
+}
+.col{
+	margin: 0 $margin;
+}
+.one{
+	width: $container / $columns - $gutter;
+}
+.two{
+	width: ($container / $columns - $gutter)*(2);
+}
+.thr{
+	width: ($container / $columns - $gutter)*(3);
+}
+.fou{
+	width: ($container / $columns - $gutter)*(4);
+}
+.fiv{
+	width: ($container / $columns - $gutter)*(5);
+}
+.six{
+	width: ($container / $columns - $gutter)*(6);
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	
+$container: 1080px;
+$columns: 6;
+$gutter: 20px;
+$margin: $gutter/2;
+
+
+.con{
+	width: $container;
+}
+.col{
+	margin: 0 $margin;
+}
+.one{
+	width: $container / $columns - $gutter;
+}
+	
+	
+}
