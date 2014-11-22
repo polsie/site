@@ -1,11 +1,11 @@
-$container: 1200px;
+$container: 1280px;
 $columns: 6;
 $gutter: 20px;
 $margin: $gutter/2;
 $row: $container / $columns - $gutter;
 
 
-.con{
+.ccc{
 	width: $container;
 }
 .col{
@@ -26,7 +26,7 @@ $row: $container / $columns - $gutter;
 .fiv{
 	width: ($container / $columns - $gutter)*(5);
 }
-.six{
+.eight{
 	width: ($container / $columns - $gutter)*(6);
 }
 
