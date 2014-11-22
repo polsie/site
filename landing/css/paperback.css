@@ -1,49 +1,31 @@
-pruebapruebaprueba
-.con{
-  width: 1200px;
-  margin: 0px auto;
-  position: relative;
-  clear:both;}
-.col{
-  float:left;
-  display: inline;
-  margin-left: 10px;
-  margin-right: 10px;}
-.cola{
-  margin-left: 0px;}
-.colo{
-  margin-right: 0px; }
+.con {
+  width: 1200px; }
+
+.col {
+  margin: 0 10px; }
+
 .one {
-  width: 80px;}
+  width: 180px; }
+
 .two {
-  width: 180px;}
+  width: 360px; }
+
 .thr {
-  width: 280px;}
+  width: 540px; }
+
 .fou {
-  width: 380px;}
+  width: 720px; }
+
 .fiv {
-  width: 480px;}
+  width: 900px; }
+
 .six {
-  width: 580px;}
-.sev {
-  width: 680px;}
-.eig {
-  width: 780px;}
-.nin {
-  width: 880px;}
-.ten {
-  width: 980px;}
-.ele {
-  width: 1080px;}
-.twe {
-  width: 1180px;}
+  width: 1080px; }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) {}
-
-@media screen and (min-width: 960px) and (max-width: 1024px) {}
-
-@media screen and (min-width: 620px) and (max-width: 960px) {}
-
-@media screen and (max-width: 480px) and (max-width: 620px) {}
-
-@media screen and (max-width: 320px) and (max-width: 480px){}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .con {
+    width: 1080px; }
+  .col {
+    margin: 0 10px; }
+  .one {
+    width: 160px; } }
