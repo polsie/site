@@ -29,7 +29,9 @@ $row: $container / $columns - $gutter;
 .six{
 	width: ($container / $columns - $gutter)*(6);
 }
-
+.sev{
+	width: ($container / $columns - $gutter)*(7);
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
 	

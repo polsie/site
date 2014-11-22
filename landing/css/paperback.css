@@ -22,10 +22,17 @@
 .six {
   width: 1080px; }
 
+.sev {
+  width: 1260px; }
+
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .con {
     width: 1080px; }
+
   .col {
     margin: 0 10px; }
+
   .one {
     width: 160px; } }
+
+/*# sourceMappingURL=paperback.css.map */
