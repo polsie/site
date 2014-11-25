@@ -9,8 +9,6 @@ $row: $container / $columns - $gutter;
 	margin: 0 auto;
 	position: relative;
 	clear: both;
-	height: 300px;
-	background-color: red;
 }
 .col{
 	float: left;
@@ -90,7 +88,7 @@ width: ($container / $columns)*(1.5) - $gutter;}
 }
 /*Medium*/
 @media screen and (min-width: 768px) and (max-width: 960px) {
-$container: 768px;
+$container: 760px;
 $columns: 6;
 $gutter: 10px;
 $margin: $gutter/2;

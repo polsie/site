@@ -3,9 +3,7 @@
   width: 1200px;
   margin: 0 auto;
   position: relative;
-  clear: both;
-  height: 300px;
-  background-color: red; }
+  clear: both; }
 
 .col {
   float: left;
@@ -97,7 +95,7 @@
 /*Medium*/
 @media screen and (min-width: 768px) and (max-width: 960px) {
   .con {
-    width: 768px; }
+    width: 760px; }
 
   .col {
     float: left;
@@ -105,31 +103,31 @@
     margin: 0 5px; }
 
   .one, .two, .thr, .qua {
-    width: 374px; }
+    width: 370px; }
 
   .fou, .fiv, .six {
-    width: 758px; }
+    width: 750px; }
 
   .mone {
-    width: 118px; }
+    width: 116.66667px; }
 
   .mtwo {
-    width: 246px; }
+    width: 243.33333px; }
 
   .mthr {
-    width: 374px; }
+    width: 370px; }
 
   .mfou {
-    width: 502px; }
+    width: 496.66667px; }
 
   .mfiv {
-    width: 630px; }
+    width: 623.33333px; }
 
   .msix {
-    width: 758px; }
+    width: 750px; }
 
   .mqua {
-    width: 182px; } }
+    width: 180px; } }
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .con {
     width: 600px; }
