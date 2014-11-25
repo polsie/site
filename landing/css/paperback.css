@@ -1,6 +1,6 @@
 /*Large*/
 .con {
-  width: 1280px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
   clear: both;
@@ -13,25 +13,25 @@
   margin: 0 10px; }
 
 .one {
-  width: 193.33333px; }
+  width: 180px; }
 
 .two {
-  width: 406.66667px; }
+  width: 380px; }
 
 .thr {
-  width: 620px; }
+  width: 580px; }
 
 .fou {
-  width: 833.33333px; }
+  width: 780px; }
 
 .fiv {
-  width: 1046.66667px; }
+  width: 980px; }
 
 .six {
-  width: 1260px; }
+  width: 1180px; }
 
 .qua {
-  width: 300px; }
+  width: 280px; }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .con {
@@ -233,7 +233,7 @@
 
   .squa {
     width: 70px; } }
-@media screen and (max-width: 240px) {
+@media screen and (min-width: 0px) and (max-width: 320px) {
   .con {
     width: 240px; }
 

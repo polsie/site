@@ -1,4 +1,4 @@
-$container: 1280px;
+$container: 1200px;
 $columns: 6;
 $gutter: 20px;
 $margin: $gutter/2;
@@ -215,7 +215,7 @@ width: ($container / $columns)*(6) - $gutter;}
 .squa{
 width: ($container / $columns)*(1.5) - $gutter;}
 }
-@media screen and (max-width: 240px){
+@media screen and (min-width: 0px) and (max-width: 320px){
 $container: 240px;
 $columns: 6;
 $gutter: 10px;
