@@ -45,7 +45,7 @@ input.qua {
 
 /* #Buttons
 ================================================== */
-button {
+button, .button {
   color: #fff;
   display: inline-block;
   font-size: 12px;
@@ -60,16 +60,65 @@ button {
   height: 34px;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-button.callred {
+button.hollred, .button.hollred {
   color: #ff484f;
   background-color: transparent;
-  border-color: #ff484f;
-  border-radius: 5px; }
+  border-color: #ff484f; }
 
-button.callred:hover {
-  color: white;
+button.hollred:hover, .button.hollred:hover {
+  color: #fff;
   background-color: #ff484f;
   border-color: #ff484f; }
+
+button.callred, .button.callred {
+  color: #fff;
+  background-color: #ff484f;
+  border-color: #ff484f; }
+
+button.callred:hover, .button.callred:hover {
+  color: #fff;
+  background-color: #fe161f;
+  border-color: #fe161f; }
+
+button.hollsea, .button.hollsea {
+  color: #00d8d5;
+  background-color: transparent;
+  border-color: #00d8d5; }
+
+button.hollsea:hover, .button.hollsea:hover {
+  color: #fff;
+  background-color: #00d8d5;
+  border-color: #00d8d5; }
+
+button.callsea, .button.callsea {
+  color: #fff;
+  background-color: #00d8d5;
+  border-color: #00d8d5; }
+
+button.callsea:hover, .button.callsea:hover {
+  color: #fff;
+  background-color: #00e4e4;
+  border-color: #00e4e4; }
+
+button.hollgrape, .button.hollgrape {
+  color: #392771;
+  background-color: transparent;
+  border-color: #392771; }
+
+button.hollgrape:hover, .button.hollgrape:hover {
+  color: #fff;
+  background-color: #392771;
+  border-color: #392771; }
+
+button.callgrape, .button.callgrape {
+  color: #fff;
+  background-color: #392771;
+  border-color: #392771; }
+
+button.callgrape:hover, .button.callgrape:hover {
+  color: #fff;
+  background-color: #2c156f;
+  border-color: #2c156f; }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .con {
