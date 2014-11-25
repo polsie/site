@@ -3,53 +3,280 @@ $columns: 6;
 $gutter: 20px;
 $margin: $gutter/2;
 $row: $container / $columns - $gutter;
-
-
+/*Large*/
 .con{
 	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
 }
 .col{
+	float: left;
+	display: inline-block;
 	margin: 0 $margin;
 }
 .one{
-	width: $container / $columns - $gutter;
-}
+width: $container / $columns - $gutter;}
 .two{
-	width: ($container / $columns - $gutter)*(2);
-}
+width: ($container / $columns)*(2) - $gutter;}
 .thr{
-	width: ($container / $columns - $gutter)*(3);
-}
+width: ($container / $columns)*(3) - $gutter;}
 .fou{
-	width: ($container / $columns - $gutter)*(4);
-}
+width: ($container / $columns)*(4) - $gutter;}
 .fiv{
-	width: ($container / $columns - $gutter)*(5);
-}
+width: ($container / $columns)*(5) - $gutter;}
 .six{
-	width: ($container / $columns - $gutter)*(6);
-}
-.sev{
-	width: ($container / $columns - $gutter)*(7);
-}
-
+width: ($container / $columns)*(6) - $gutter;}
+.qua{
+width: ($container / $columns)*(1.5) - $gutter;}
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
-	
-$container: 1080px;
+$container: 1020px;
 $columns: 6;
 $gutter: 20px;
 $margin: $gutter/2;
-
-
 .con{
 	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
 }
 .col{
+	float: left;
+	display: inline-block;
 	margin: 0 $margin;
 }
 .one{
-	width: $container / $columns - $gutter;
+width: $container / $columns - $gutter;}
+.two{
+width: ($container / $columns)*(2) - $gutter;}
+.thr{
+width: ($container / $columns)*(3) - $gutter;}
+.fou{
+width: ($container / $columns)*(4) - $gutter;}
+.fiv{
+width: ($container / $columns)*(5) - $gutter;}
+.six{
+width: ($container / $columns)*(6) - $gutter;}
+.qua{
+width: ($container / $columns)*(1.5) - $gutter;}
 }
-	
-	
+@media screen and (min-width: 960px) and (max-width: 1020px) {
+$container: 960px;
+$columns: 6;
+$gutter: 10px;
+$margin: $gutter/2;
+.con{
+	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
+}
+.col{
+	float: left;
+	display: inline-block;
+	margin: 0 $margin;
+}
+.one{
+width: $container / $columns - $gutter;}
+.two{
+width: ($container / $columns)*(2) - $gutter;}
+.thr{
+width: ($container / $columns)*(3) - $gutter;}
+.fou{
+width: ($container / $columns)*(4) - $gutter;}
+.fiv{
+width: ($container / $columns)*(5) - $gutter;}
+.six{
+width: ($container / $columns)*(6) - $gutter;}
+.qua{
+width: ($container / $columns)*(1.5) - $gutter;}
+}
+/*Medium*/
+@media screen and (min-width: 768px) and (max-width: 960px) {
+$container: 768px;
+$columns: 6;
+$gutter: 10px;
+$margin: $gutter/2;
+.con{
+	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
+}
+.col{
+	float: left;
+	display: inline-block;
+	margin: 0 $margin;
+}
+.one, .two, .thr, .qua{
+width: ($container / $columns)*(3) - $gutter;}
+.fou, .fiv, .six{
+width: ($container / $columns)*(6) - $gutter;}
+.mone{
+width: $container / $columns - $gutter;}
+.mtwo{
+width: ($container / $columns)*(2) - $gutter;}
+.mthr{
+width: ($container / $columns)*(3) - $gutter;}
+.mfou{
+width: ($container / $columns)*(4) - $gutter;}
+.mfiv{
+width: ($container / $columns)*(5) - $gutter;}
+.msix{
+width: ($container / $columns)*(6) - $gutter;}
+.mqua{
+width: ($container / $columns)*(1.5) - $gutter;}
+}
+@media screen and (min-width: 600px) and (max-width: 768px){
+$container: 600px;
+$columns: 6;
+$gutter: 10px;
+$margin: $gutter/2;
+.con{
+	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
+}
+.col{
+	float: left;
+	display: inline-block;
+	margin: 0 $margin;
+}
+.one, .two, .thr, .qua{
+width: ($container / $columns)*(3) - $gutter;}
+.fou, .fiv, .six{
+width: ($container / $columns)*(6) - $gutter;}
+.mone{
+width: $container / $columns - $gutter;}
+.mtwo{
+width: ($container / $columns)*(2) - $gutter;}
+.mthr{
+width: ($container / $columns)*(3) - $gutter;}
+.mfou{
+width: ($container / $columns)*(4) - $gutter;}
+.mfiv{
+width: ($container / $columns)*(5) - $gutter;}
+.msix{
+width: ($container / $columns)*(6) - $gutter;}
+.mqua{
+width: ($container / $columns)*(1.5) - $gutter;}
+}
+@media screen and (min-width: 480px) and (max-width: 600px){
+$container: 480px;
+$columns: 6;
+$gutter: 10px;
+$margin: $gutter/2;
+.con{
+	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
+}
+.col{
+	float: left;
+	display: inline-block;
+	margin: 0 $margin;
+}
+.one, .two, .thr, .qua{
+width: ($container / $columns)*(3) - $gutter;}
+.fou, .fiv, .six{
+width: ($container / $columns)*(6) - $gutter;}
+.mone{
+width: $container / $columns - $gutter;}
+.mtwo{
+width: ($container / $columns)*(2) - $gutter;}
+.mthr{
+width: ($container / $columns)*(3) - $gutter;}
+.mfou{
+width: ($container / $columns)*(4) - $gutter;}
+.mfiv{
+width: ($container / $columns)*(5) - $gutter;}
+.msix{
+width: ($container / $columns)*(6) - $gutter;}
+.mqua{
+width: ($container / $columns)*(1.5) - $gutter;}
+}
+/*Small*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+$container: 320px;
+$columns: 6;
+$gutter: 10px;
+$margin: $gutter/2;
+.con{
+	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
+}
+.col{
+	float: left;
+	display: inline-block;
+	margin: 0 $margin;
+}
+.one, .two, .thr, .qua,.fou, .fiv, .six{
+width: ($container / $columns)*(6) - $gutter;}
+.sone{
+width: $container / $columns - $gutter;}
+.stwo{
+width: ($container / $columns)*(2) - $gutter;}
+.sthr{
+width: ($container / $columns)*(3) - $gutter;}
+.sfou{
+width: ($container / $columns)*(4) - $gutter;}
+.sfiv{
+width: ($container / $columns)*(5) - $gutter;}
+.ssix{
+width: ($container / $columns)*(6) - $gutter;}
+.squa{
+width: ($container / $columns)*(1.5) - $gutter;}
+}
+@media screen and (max-width: 240px){
+$container: 240px;
+$columns: 6;
+$gutter: 10px;
+$margin: $gutter/2;
+.con{
+	width: $container;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+	height: 300px;
+	background-color: red;
+}
+.col{
+	float: left;
+	display: inline-block;
+	margin: 0 $margin;
+}
+.one, .two, .thr, .qua,.fou, .fiv, .six{
+width: ($container / $columns)*(6) - $gutter;}
+.sone{
+width: $container / $columns - $gutter;}
+.stwo{
+width: ($container / $columns)*(2) - $gutter;}
+.sthr{
+width: ($container / $columns)*(3) - $gutter;}
+.sfou{
+width: ($container / $columns)*(4) - $gutter;}
+.sfiv{
+width: ($container / $columns)*(5) - $gutter;}
+.ssix{
+width: ($container / $columns)*(6) - $gutter;}
+.squa{
+width: ($container / $columns)*(1.5) - $gutter;}
 }
