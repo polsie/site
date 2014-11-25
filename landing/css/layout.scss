@@ -11,6 +11,25 @@ body {
     height: 80vh;
     position:absolute;
 }
+#menu {
+    color: #FFF;
+    font-family: gotham;
+    float: right;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    cursor: pointer;
+}
+#menu span {
+    margin-left: 20px;
+    text-decoration: none;
+}
+#menu a {
+    text-decoration: none;
+    color: #FFF;
+}
+#copy{
+    text-align: center;
+}
 .section {
     display: block;
     width: 100%;
