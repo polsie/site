@@ -37,13 +37,7 @@ $columns: 6;
 $gutter: 20px;
 $margin: $gutter/2;
 .con{
-	width: $container;
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-	height: 300px;
-	background-color: red;
-}
+	width: $container;}
 .col{
 	float: left;
 	display: inline-block;
@@ -71,11 +65,6 @@ $gutter: 10px;
 $margin: $gutter/2;
 .con{
 	width: $container;
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-	height: 300px;
-	background-color: red;
 }
 .col{
 	float: left;
@@ -83,7 +72,7 @@ $margin: $gutter/2;
 	margin: 0 $margin;
 }
 .eight{
-	width: ($container / $columns - $gutter)*(6);
+width: ($container / $columns - $gutter)*(6);}
 .one{
 width: $container / $columns - $gutter;}
 .two{
@@ -106,13 +95,7 @@ $columns: 6;
 $gutter: 10px;
 $margin: $gutter/2;
 .con{
-	width: $container;
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-	height: 300px;
-	background-color: red;
-}
+	width: $container;}
 .col{
 	float: left;
 	display: inline-block;
@@ -144,11 +127,6 @@ $gutter: 10px;
 $margin: $gutter/2;
 .con{
 	width: $container;
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-	height: 300px;
-	background-color: red;
 }
 .col{
 	float: left;
@@ -181,11 +159,6 @@ $gutter: 10px;
 $margin: $gutter/2;
 .con{
 	width: $container;
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-	height: 300px;
-	background-color: red;
 }
 .col{
 	float: left;
@@ -219,11 +192,6 @@ $gutter: 10px;
 $margin: $gutter/2;
 .con{
 	width: $container;
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-	height: 300px;
-	background-color: red;
 }
 .col{
 	float: left;
@@ -254,11 +222,6 @@ $gutter: 10px;
 $margin: $gutter/2;
 .con{
 	width: $container;
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-	height: 300px;
-	background-color: red;
 }
 .col{
 	float: left;

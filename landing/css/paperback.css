@@ -1,58 +1,97 @@
 /*Large*/
 .con {
-  width: 1200px; }
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+  height: 300px;
+  background-color: red; }
+
 .col {
+  float: left;
+  display: inline-block;
   margin: 0 10px; }
+
 .one {
-  width: 180px; }
+  width: 193.33333px; }
+
 .two {
-  width: 380px; }
+  width: 406.66667px; }
+
 .thr {
-  width: 580px; }
+  width: 620px; }
+
 .fou {
-  width: 780px; }
+  width: 833.33333px; }
+
 .fiv {
-  width: 980px; }
+  width: 1046.66667px; }
+
 .six {
-  width: 1180px; }
+  width: 1260px; }
+
 .qua {
-  width: 280px; }
+  width: 300px; }
+
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .con {
     width: 1020px; }
+
   .col {
+    float: left;
+    display: inline-block;
     margin: 0 10px; }
+
   .one {
     width: 150px; }
+
   .two {
     width: 320px; }
+
   .thr {
     width: 490px; }
+
   .fou {
     width: 660px; }
+
   .fiv {
     width: 830px; }
+
   .six {
     width: 1000px; }
+
   .qua {
     width: 235px; } }
 @media screen and (min-width: 960px) and (max-width: 1020px) {
   .con {
     width: 960px; }
+
   .col {
+    float: left;
+    display: inline-block;
     margin: 0 5px; }
+
+  .eight {
+    width: 900px; }
+
   .one {
     width: 150px; }
+
   .two {
     width: 310px; }
+
   .thr {
     width: 470px; }
+
   .fou {
     width: 630px; }
+
   .fiv {
     width: 790px; }
+
   .six {
     width: 950px; }
+
   .qua {
     width: 230px; } }
 /*Medium*/
@@ -61,6 +100,8 @@
     width: 768px; }
 
   .col {
+    float: left;
+    display: inline-block;
     margin: 0 5px; }
 
   .one, .two, .thr, .qua {
@@ -94,6 +135,8 @@
     width: 600px; }
 
   .col {
+    float: left;
+    display: inline-block;
     margin: 0 5px; }
 
   .one, .two, .thr, .qua {
@@ -127,6 +170,8 @@
     width: 480px; }
 
   .col {
+    float: left;
+    display: inline-block;
     margin: 0 5px; }
 
   .one, .two, .thr, .qua {
@@ -161,6 +206,8 @@
     width: 320px; }
 
   .col {
+    float: left;
+    display: inline-block;
     margin: 0 5px; }
 
   .one, .two, .thr, .qua, .fou, .fiv, .six {
@@ -191,6 +238,8 @@
     width: 240px; }
 
   .col {
+    float: left;
+    display: inline-block;
     margin: 0 5px; }
 
   .one, .two, .thr, .qua, .fou, .fiv, .six {
@@ -217,3 +266,4 @@
   .squa {
     width: 50px; } }
 
+/*# sourceMappingURL=paperback.css.map */
