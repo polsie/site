@@ -1,421 +1,246 @@
-/*! Basic for POLSIE */
-
-/*
- * Based on the boilerplate V3.0.1
- * Thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
- * These selection rule sets have to be separate.
- * Black and white as a starting point.
- */
-
-::-moz-selection {
-    background: black;
-    color:white;
-    text-shadow: none;
-}
-
-::selection {
-    background: black;
-    color:white;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-
-/* #Basic Styles
+/* #Forms
 ================================================== */
-	body {
-		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #222;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-		-webkit-text-size-adjust: 100%;
- }
+input {
+  border: none;
+  outline: none;
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
+  border-radius: none;
+  font: 12px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  background: #fff;
+  padding: 10px;
+  width: 140px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px; }
 
+input.two {
+  padding: 10px;
+  width: 340px;
+  margin-bottom: 10px; }
 
-/* #Typography
-================================================== */
-	h1, h2, h3, h4, h5, h6 {
-		color: #333333;
-		font-family: sans-serif;
-		font-weight: bold; }
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
-	.subheader { color: #777; }
+input.qua {
+  padding: 10px;
+  width: 240px;
+  margin-bottom: 10px; }
 
-	p { margin: 0 0 20px 0; }
-	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+.one input.full {
+  width: 140px; }
 
-	em { font-style: italic; }
-	strong { font-weight: bold; color: #333; }
-	small { font-size: 80%; }
+.two input.full {
+  width: 340px; }
 
-/*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
-	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
-	blockquote cite { display: block; font-size: 12px; color: #555; }
-	blockquote cite:before { content: "\2014 \0020"; }
-	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+.thr input.full {
+  width: 540px; }
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+.fou input.full {
+  width: 740px; }
 
+.fiv input.full {
+  width: 940px; }
 
-/* #Links
-================================================== */
-	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
-	a:hover, a:focus { color: #000; }
-	p a, p a:visited { line-height: inherit; }
-
-
-/* #Lists
-================================================== */
-	ul, ol { margin-bottom: 20px; }
-	ul { list-style: none outside; }
-	ol { list-style: decimal; }
-	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
-	ul.square { list-style: square outside; }
-	ul.circle { list-style: circle outside; }
-	ul.disc { list-style: disc outside; }
-	ul ul, ul ol,
-	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
-	ul ul li, ul ol li,
-	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
-	ul.large li { line-height: 21px; }
-	li p { line-height: 21px; }
-
-/* #Images
-================================================== */
-
-	img.scale-with-grid {
-		max-width: 100%;
-		height: auto; }
-
+.six input.full {
+  width: 1140px; }
 
 /* #Buttons
 ================================================== */
+button {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  line-height: 34px;
+  padding: 0 10px;
+  border: solid 1px black;
+  background-color: #000;
+  height: 34px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-	.button,
-	button,
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"] {
-	  color: #444;
-	  display: inline-block;
-	  font-size: 11px;
-	  font-weight: bold;
-	  text-decoration: none;
-	  cursor: pointer;
-	  margin-bottom: 20px;
-	  line-height: normal;
-	  padding: 10px 12px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+button.callred {
+  color: #ff484f;
+  background-color: transparent;
+  border-color: #ff484f;
+  border-radius: 5px; }
 
-	.button:hover,
-	button:hover,
-	input[type="submit"]:hover,
-	input[type="reset"]:hover,
-	input[type="button"]:hover {
-		color: #222; }
+button.callred:hover {
+  color: white;
+  background-color: #ff484f;
+  border-color: #ff484f; }
 
-	.button:active,
-	button:active,
-	input[type="submit"]:active,
-	input[type="reset"]:active,
-	input[type="button"]:active {}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .con {
+    width: 1020px; }
+  .col {
+    float: left;
+    display: inline-block;
+    margin: 0 10px; }
+  .one {
+    width: 150px; }
+  .two {
+    width: 320px; }
+  .thr {
+    width: 490px; }
+  .fou {
+    width: 660px; }
+  .fiv {
+    width: 830px; }
+  .six {
+    width: 1000px; }
+  .qua {
+    width: 235px; } }
 
-	.button.full-width,
-	button.full-width,
-	input[type="submit"].full-width,
-	input[type="reset"].full-width,
-	input[type="button"].full-width {
-		width: 100%;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-		text-align: center; }
+@media screen and (min-width: 960px) and (max-width: 1020px) {
+  .con {
+    width: 960px; }
+  .col {
+    float: left;
+    display: inline-block;
+    margin: 0 5px; }
+  .eight {
+    width: 900px; }
+  .one {
+    width: 150px; }
+  .two {
+    width: 310px; }
+  .thr {
+    width: 470px; }
+  .fou {
+    width: 630px; }
+  .fiv {
+    width: 790px; }
+  .six {
+    width: 950px; }
+  .qua {
+    width: 230px; } }
 
-	/* Fix for odd Mozilla border & padding issues */
-	button::-moz-focus-inner,
-	input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-	}
+/*Medium*/
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .con {
+    width: 768px; }
+  .col {
+    float: left;
+    display: inline-block;
+    margin: 0 5px; }
+  .one, .two, .thr, .qua {
+    width: 374px; }
+  .fou, .fiv, .six {
+    width: 758px; }
+  .mone {
+    width: 118px; }
+  .mtwo {
+    width: 246px; }
+  .mthr {
+    width: 374px; }
+  .mfou {
+    width: 502px; }
+  .mfiv {
+    width: 630px; }
+  .msix {
+    width: 758px; }
+  .mqua {
+    width: 182px; } }
 
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .con {
+    width: 600px; }
+  .col {
+    float: left;
+    display: inline-block;
+    margin: 0 5px; }
+  .one, .two, .thr, .qua {
+    width: 290px; }
+  .fou, .fiv, .six {
+    width: 590px; }
+  .mone {
+    width: 90px; }
+  .mtwo {
+    width: 190px; }
+  .mthr {
+    width: 290px; }
+  .mfou {
+    width: 390px; }
+  .mfiv {
+    width: 490px; }
+  .msix {
+    width: 590px; }
+  .mqua {
+    width: 140px; } }
 
-/* #Forms
-================================================== */
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .con {
+    width: 480px; }
+  .col {
+    float: left;
+    display: inline-block;
+    margin: 0 5px; }
+  .one, .two, .thr, .qua {
+    width: 230px; }
+  .fou, .fiv, .six {
+    width: 470px; }
+  .mone {
+    width: 70px; }
+  .mtwo {
+    width: 150px; }
+  .mthr {
+    width: 230px; }
+  .mfou {
+    width: 310px; }
+  .mfiv {
+    width: 390px; }
+  .msix {
+    width: 470px; }
+  .mqua {
+    width: 110px; } }
 
-	form {
-		margin-bottom: 20px; }
-	fieldset {
-		margin-bottom: 20px; }
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea,
-	select {
-		border: none;
-		padding: 14px;
-		outline: none;
-		-moz-border-radius: none;
-		-webkit-border-radius: none;
-		border-radius: none;
-		font: 14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #777;
-		margin: 0;
-		width: 100%;
-		max-width: 100%;
-		max-width: 100%;
-		display: block;
-		margin-bottom: 20px;
-		background: #fff; }
-	select {
-		padding: 0; }
-	input[type="text"]:focus,
-	input[type="password"]:focus,
-	input[type="email"]:focus,
-	textarea:focus {
-		border: none;
- 		color: #444;
- 		-moz-box-shadow: none;
-		-webkit-box-shadow: none;
-		box-shadow:  none; }
-	textarea {
-		min-height: 60px; }
-	label,
-	legend {
-		display: block;
-		font-weight: bold;
-		font-size: 13px;  }
-	select {
-		width: 220px; }
-	input[type="checkbox"] {
-		display: inline; }
-	label span,
-	legend span {
-		font-weight: normal;
-		font-size: 13px;
-		color: #444; }
+/*Small*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .con {
+    width: 320px; }
+  .col {
+    float: left;
+    display: inline-block;
+    margin: 0 5px; }
+  .one, .two, .thr, .qua, .fou, .fiv, .six {
+    width: 310px; }
+  .sone {
+    width: 43.33333px; }
+  .stwo {
+    width: 96.66667px; }
+  .sthr {
+    width: 150px; }
+  .sfou {
+    width: 203.33333px; }
+  .sfiv {
+    width: 256.66667px; }
+  .ssix {
+    width: 310px; }
+  .squa {
+    width: 70px; } }
 
-/* #Misc
-================================================== */
-	.remove-bottom { margin-bottom: 0 !important; }
-	.half-bottom { margin-bottom: 10px !important; }
-	.add-bottom { margin-bottom: 20px !important; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers:
- * http://juicystudio.com/article/screen-readers-display-none.php
- */
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+@media screen and (max-width: 240px) {
+  .con {
+    width: 240px; }
+  .col {
+    float: left;
+    display: inline-block;
+    margin: 0 5px; }
+  .one, .two, .thr, .qua, .fou, .fiv, .six {
+    width: 230px; }
+  .sone {
+    width: 30px; }
+  .stwo {
+    width: 70px; }
+  .sthr {
+    width: 110px; }
+  .sfou {
+    width: 150px; }
+  .sfiv {
+    width: 190px; }
+  .ssix {
+    width: 230px; }
+  .squa {
+    width: 50px; } }
