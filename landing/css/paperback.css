@@ -1,38 +1,219 @@
+/*Large*/
 .con {
   width: 1200px; }
-
 .col {
   margin: 0 10px; }
-
 .one {
   width: 180px; }
-
 .two {
-  width: 360px; }
-
+  width: 380px; }
 .thr {
-  width: 540px; }
-
+  width: 580px; }
 .fou {
-  width: 720px; }
-
+  width: 780px; }
 .fiv {
-  width: 900px; }
-
+  width: 980px; }
 .six {
-  width: 1080px; }
-
-.sev {
-  width: 1260px; }
-
+  width: 1180px; }
+.qua {
+  width: 280px; }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .con {
-    width: 1080px; }
-
+    width: 1020px; }
   .col {
     margin: 0 10px; }
-
   .one {
-    width: 160px; } }
+    width: 150px; }
+  .two {
+    width: 320px; }
+  .thr {
+    width: 490px; }
+  .fou {
+    width: 660px; }
+  .fiv {
+    width: 830px; }
+  .six {
+    width: 1000px; }
+  .qua {
+    width: 235px; } }
+@media screen and (min-width: 960px) and (max-width: 1020px) {
+  .con {
+    width: 960px; }
+  .col {
+    margin: 0 5px; }
+  .one {
+    width: 150px; }
+  .two {
+    width: 310px; }
+  .thr {
+    width: 470px; }
+  .fou {
+    width: 630px; }
+  .fiv {
+    width: 790px; }
+  .six {
+    width: 950px; }
+  .qua {
+    width: 230px; } }
+/*Medium*/
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .con {
+    width: 768px; }
 
-/*# sourceMappingURL=paperback.css.map */
+  .col {
+    margin: 0 5px; }
+
+  .one, .two, .thr, .qua {
+    width: 374px; }
+
+  .fou, .fiv, .six {
+    width: 758px; }
+
+  .mone {
+    width: 118px; }
+
+  .mtwo {
+    width: 246px; }
+
+  .mthr {
+    width: 374px; }
+
+  .mfou {
+    width: 502px; }
+
+  .mfiv {
+    width: 630px; }
+
+  .msix {
+    width: 758px; }
+
+  .mqua {
+    width: 182px; } }
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .con {
+    width: 600px; }
+
+  .col {
+    margin: 0 5px; }
+
+  .one, .two, .thr, .qua {
+    width: 290px; }
+
+  .fou, .fiv, .six {
+    width: 590px; }
+
+  .mone {
+    width: 90px; }
+
+  .mtwo {
+    width: 190px; }
+
+  .mthr {
+    width: 290px; }
+
+  .mfou {
+    width: 390px; }
+
+  .mfiv {
+    width: 490px; }
+
+  .msix {
+    width: 590px; }
+
+  .mqua {
+    width: 140px; } }
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .con {
+    width: 480px; }
+
+  .col {
+    margin: 0 5px; }
+
+  .one, .two, .thr, .qua {
+    width: 230px; }
+
+  .fou, .fiv, .six {
+    width: 470px; }
+
+  .mone {
+    width: 70px; }
+
+  .mtwo {
+    width: 150px; }
+
+  .mthr {
+    width: 230px; }
+
+  .mfou {
+    width: 310px; }
+
+  .mfiv {
+    width: 390px; }
+
+  .msix {
+    width: 470px; }
+
+  .mqua {
+    width: 110px; } }
+/*Small*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .con {
+    width: 320px; }
+
+  .col {
+    margin: 0 5px; }
+
+  .one, .two, .thr, .qua, .fou, .fiv, .six {
+    width: 310px; }
+
+  .sone {
+    width: 43.33333px; }
+
+  .stwo {
+    width: 96.66667px; }
+
+  .sthr {
+    width: 150px; }
+
+  .sfou {
+    width: 203.33333px; }
+
+  .sfiv {
+    width: 256.66667px; }
+
+  .ssix {
+    width: 310px; }
+
+  .squa {
+    width: 70px; } }
+@media screen and (max-width: 240px) {
+  .con {
+    width: 240px; }
+
+  .col {
+    margin: 0 5px; }
+
+  .one, .two, .thr, .qua, .fou, .fiv, .six {
+    width: 230px; }
+
+  .sone {
+    width: 30px; }
+
+  .stwo {
+    width: 70px; }
+
+  .sthr {
+    width: 110px; }
+
+  .sfou {
+    width: 150px; }
+
+  .sfiv {
+    width: 190px; }
+
+  .ssix {
+    width: 230px; }
+
+  .squa {
+    width: 50px; } }
+
