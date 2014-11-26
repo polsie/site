@@ -6,11 +6,16 @@ h1, h2, h3, h4, h5{
 body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+#composicion{
+	width: auto;
+	height: auto;
+	position: relative;
+	clear: both;
+}
 #welcome {
-    background-image: url('../img/bgwelcome.jpg');
     height: 80vh;
     min-height: 400px;
-    max-height: 600px;
+    max-height: 800px;
     position:absolute;
     z-index: 25;
 }
@@ -26,12 +31,14 @@ body {
     width:1180px;
 }
 #topmenu .logo{
-    height:20px;
+    height:18px;
     width:auto;
+    margin-top: 7px;
 }
 #menu {
     color: #FFF;
-    font-family: gotham;
+    font-family: "Din";
+    font-weight: bold;
     float: right;
     text-transform: uppercase;
     font-size: 0.85em;
@@ -46,15 +53,38 @@ body {
     text-decoration: none;
     color: #FFF;
 }
+#containercopy {
+	display: block;
+	height: auto;
+	position: absolute;
+	width: auto;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#copymargin{
+	height: 40vh;
+	width: 20px;
+	display: block;
+	position: relative;
+	z-index: 75;
+	margin-bottom: 0;
+	padding: 0;
+	left:0;
+    right:0;
+    margin:auto;
+    min-height: 200px;
+    max-height: 400px;
+}
 #copy{
     text-align: center;
     display:block;
-    position:absolute;
+    position:relative;
     top:0;
     left:0;
     right:0;
     margin:auto;
-    margin-top: 40vh;
+    margin-top: 0;
     z-index: 75;
     width:1180px;
     height:50px;
@@ -63,24 +93,50 @@ body {
     display:block;
     width:100%;
     text-align: center;
-    font-size: 25px;
-    margin-top: -40px;
+    font-size: 36px;
+    margin-top: -45px;
     position:absolute;
 }
 #copy h3{
-    font-size: 18px;
-    margin-top: 5px;
+display: block;
+height: 50px;
+    font-size: 24px;
+    margin-top: 0px;
+    font-weight: normal;
+    font-family: "Din"
+}
+#containervideo {
+	display: block;
+	height: auto;
+	position: absolute;
+	width: auto;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#videomargin{
+	height: 70vh;
+	width: 40px;
+	display: block;
+	position: relative;
+	z-index: 75;
+	margin-bottom: 0;
+	padding: 0;
+	left:0;
+    right:0;
+    margin:auto;
+    min-height: 360px;
+    max-height: 720px;
 }
 #video {
     display:block;
     left:0;
     right:0;
     margin:auto;
-    width:580px;
-    height:335px;
-    margin-top: 70vh;
-    background-color: red;
-    position:absolute;
+    height:440px;
+    margin-top: 0;
+    background-color: #ff484f;
+    position:relative;
     z-index: 100;
 }
 #video iframe{
@@ -105,6 +161,13 @@ body {
     opacity: 0.8;
     z-index: 1;
     color: transparent;}
+.stripe{
+	width: 100%;
+	padding: 50px 0;
+}
+.glow{
+	background-color: #eee;
+}
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
 #topmenu{
     width:1000px;

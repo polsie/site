@@ -10,6 +10,9 @@
   display: inline-block;
   margin: 0 10px; }
 
+.row {
+  margin-bottom: 50px; }
+
 .one {
   width: 180px; }
 
@@ -34,234 +37,173 @@
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .con {
     width: 1020px; }
-
   .col {
     float: left;
     display: inline-block;
     margin: 0 10px; }
-
   .one {
     width: 150px; }
-
   .two {
     width: 320px; }
-
   .thr {
     width: 490px; }
-
   .fou {
     width: 660px; }
-
   .fiv {
     width: 830px; }
-
   .six {
     width: 1000px; }
-
   .qua {
     width: 235px; } }
+
 @media screen and (min-width: 960px) and (max-width: 1020px) {
   .con {
     width: 960px; }
-
   .col {
     float: left;
     display: inline-block;
     margin: 0 5px; }
-
   .eight {
     width: 900px; }
-
   .one {
     width: 150px; }
-
   .two {
     width: 310px; }
-
   .thr {
     width: 470px; }
-
   .fou {
     width: 630px; }
-
   .fiv {
     width: 790px; }
-
   .six {
     width: 950px; }
-
   .qua {
     width: 230px; } }
+
 /*Medium*/
 @media screen and (min-width: 768px) and (max-width: 960px) {
   .con {
     width: 760px; }
-
   .col {
     float: left;
     display: inline-block;
     margin: 0 5px; }
-
   .one, .two, .thr, .qua {
     width: 370px; }
-
   .fou, .fiv, .six {
     width: 750px; }
-
   .mone {
     width: 116.66667px; }
-
   .mtwo {
     width: 243.33333px; }
-
   .mthr {
     width: 370px; }
-
   .mfou {
     width: 496.66667px; }
-
   .mfiv {
     width: 623.33333px; }
-
   .msix {
     width: 750px; }
-
   .mqua {
     width: 180px; } }
+
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .con {
     width: 600px; }
-
   .col {
     float: left;
     display: inline-block;
     margin: 0 5px; }
-
   .one, .two, .thr, .qua {
     width: 290px; }
-
   .fou, .fiv, .six {
     width: 590px; }
-
   .mone {
     width: 90px; }
-
   .mtwo {
     width: 190px; }
-
   .mthr {
     width: 290px; }
-
   .mfou {
     width: 390px; }
-
   .mfiv {
     width: 490px; }
-
   .msix {
     width: 590px; }
-
   .mqua {
     width: 140px; } }
+
 @media screen and (min-width: 480px) and (max-width: 600px) {
   .con {
     width: 480px; }
-
   .col {
     float: left;
     display: inline-block;
     margin: 0 5px; }
-
   .one, .two, .thr, .qua {
     width: 230px; }
-
   .fou, .fiv, .six {
     width: 470px; }
-
   .mone {
     width: 70px; }
-
   .mtwo {
     width: 150px; }
-
   .mthr {
     width: 230px; }
-
   .mfou {
     width: 310px; }
-
   .mfiv {
     width: 390px; }
-
   .msix {
     width: 470px; }
-
   .mqua {
     width: 110px; } }
+
 /*Small*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .con {
     width: 320px; }
-
   .col {
     float: left;
     display: inline-block;
     margin: 0 5px; }
-
   .one, .two, .thr, .qua, .fou, .fiv, .six {
     width: 310px; }
-
   .sone {
     width: 43.33333px; }
-
   .stwo {
     width: 96.66667px; }
-
   .sthr {
     width: 150px; }
-
   .sfou {
     width: 203.33333px; }
-
   .sfiv {
     width: 256.66667px; }
-
   .ssix {
     width: 310px; }
-
   .squa {
     width: 70px; } }
+
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .con {
     width: 240px; }
-
   .col {
     float: left;
     display: inline-block;
     margin: 0 5px; }
-
   .one, .two, .thr, .qua, .fou, .fiv, .six {
     width: 230px; }
-
   .sone {
     width: 30px; }
-
   .stwo {
     width: 70px; }
-
   .sthr {
     width: 110px; }
-
   .sfou {
     width: 150px; }
-
   .sfiv {
     width: 190px; }
-
   .ssix {
     width: 230px; }
-
   .squa {
     width: 50px; } }
-
-/*# sourceMappingURL=paperback.css.map */

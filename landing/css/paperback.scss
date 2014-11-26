@@ -15,6 +15,9 @@ $row: $container / $columns - $gutter;
 	display: inline-block;
 	margin: 0 $margin;
 }
+.row{ 
+    margin-bottom: 50px; 
+}
 .one{
 width: $container / $columns - $gutter;}
 .two{
